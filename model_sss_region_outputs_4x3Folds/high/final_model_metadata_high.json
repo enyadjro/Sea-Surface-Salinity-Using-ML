@@ -1,0 +1,26 @@
+{
+    "Region": "high",
+    "Timestamp": "2025-12-01 04:14:27",
+    "Num_Features": 22,
+    "Best_Model": "XGBoost",
+    "Best_Hyperparameters": {
+        "model__colsample_bytree": 0.6,
+        "model__gamma": 1,
+        "model__learning_rate": 0.01,
+        "model__max_depth": 3,
+        "model__n_estimators": 800,
+        "model__reg_alpha": 0.01,
+        "model__reg_lambda": 1,
+        "model__subsample": 0.6
+    },
+    "CrossVal_Metrics": {
+        "Mean_R2": 0.89305,
+        "Mean_RMSE": 1.452875,
+        "Mean_MAE": 1.211025
+    },
+    "Files_Generated": {
+        "Model_Pickle": "final_model_high.pkl",
+        "Hyperparams_CSV": "best_model_hyperparams_XGBoost.csv",
+        "Permutation_Importance_CSV": "final_perm_importance_XGBoost.csv"
+    }
+}

@@ -1,0 +1,4 @@
+Region,Winner,Mean_R2,Mean_RMSE,Mean_MAE
+high,XGBoost,0.89305,1.452875,1.211025
+low,RandomForest,0.15475,0.061425,0.047125
+med,RandomForest,0.143425,0.133975,0.1065

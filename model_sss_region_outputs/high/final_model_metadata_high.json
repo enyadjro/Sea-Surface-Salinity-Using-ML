@@ -1,0 +1,23 @@
+{
+    "Region": "high",
+    "Timestamp": "2025-11-30 21:07:20",
+    "Num_Features": 22,
+    "Best_Model": "SVR",
+    "Best_Hyperparameters": {
+        "model__C": 100,
+        "model__degree": 2,
+        "model__epsilon": 0.1,
+        "model__gamma": 0.001,
+        "model__kernel": "rbf"
+    },
+    "CrossVal_Metrics": {
+        "Mean_R2": 0.8905166666666666,
+        "Mean_RMSE": 1.49425,
+        "Mean_MAE": 1.1664
+    },
+    "Files_Generated": {
+        "Model_Pickle": "final_model_high.pkl",
+        "Hyperparams_CSV": "best_model_hyperparams_SVR.csv",
+        "Permutation_Importance_CSV": "final_perm_importance_SVR.csv"
+    }
+}

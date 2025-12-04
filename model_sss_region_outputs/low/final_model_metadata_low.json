@@ -1,0 +1,24 @@
+{
+    "Region": "low",
+    "Timestamp": "2025-11-30 12:41:10",
+    "Num_Features": 22,
+    "Best_Model": "RandomForest",
+    "Best_Hyperparameters": {
+        "model__bootstrap": true,
+        "model__max_depth": 10,
+        "model__max_features": "log2",
+        "model__min_samples_leaf": 1,
+        "model__min_samples_split": 2,
+        "model__n_estimators": 800
+    },
+    "CrossVal_Metrics": {
+        "Mean_R2": 0.013816666666666672,
+        "Mean_RMSE": 0.061783333333333336,
+        "Mean_MAE": 0.04841666666666666
+    },
+    "Files_Generated": {
+        "Model_Pickle": "final_model_low.pkl",
+        "Hyperparams_CSV": "best_model_hyperparams_RandomForest.csv",
+        "Permutation_Importance_CSV": "final_perm_importance_RandomForest.csv"
+    }
+}

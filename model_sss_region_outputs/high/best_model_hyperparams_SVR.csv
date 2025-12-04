@@ -1,0 +1,6 @@
+Parameter,Value
+model__C,100
+model__degree,2
+model__epsilon,0.1
+model__gamma,0.001
+model__kernel,rbf

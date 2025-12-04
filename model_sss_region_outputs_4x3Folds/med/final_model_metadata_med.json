@@ -1,0 +1,24 @@
+{
+    "Region": "med",
+    "Timestamp": "2025-12-01 01:33:25",
+    "Num_Features": 22,
+    "Best_Model": "RandomForest",
+    "Best_Hyperparameters": {
+        "model__bootstrap": true,
+        "model__max_depth": null,
+        "model__max_features": "sqrt",
+        "model__min_samples_leaf": 1,
+        "model__min_samples_split": 2,
+        "model__n_estimators": 300
+    },
+    "CrossVal_Metrics": {
+        "Mean_R2": 0.143425,
+        "Mean_RMSE": 0.133975,
+        "Mean_MAE": 0.1065
+    },
+    "Files_Generated": {
+        "Model_Pickle": "final_model_med.pkl",
+        "Hyperparams_CSV": "best_model_hyperparams_RandomForest.csv",
+        "Permutation_Importance_CSV": "final_perm_importance_RandomForest.csv"
+    }
+}

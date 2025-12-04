@@ -1,0 +1,4 @@
+model,R2,RMSE,MAE
+SVR,0.9478,1.168,0.9292
+Baseline_Linear,0.9462,1.0913,0.8695
+RandomForest,0.87185,1.50705,1.1574

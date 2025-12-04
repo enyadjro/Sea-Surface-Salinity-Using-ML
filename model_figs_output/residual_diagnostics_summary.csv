@@ -1,0 +1,4 @@
+Region,r,R²,Mean Residual (PSU),SD Residual (PSU),Shapiro–Wilk p,Breusch–Pagan p
+Low Var Region,0.98,0.95,0.0,0.021,0.516,0.005
+Med Var Region,0.98,0.96,0.001,0.051,0.704,0.675
+High Var Region,0.97,0.94,-0.073,1.141,0.083,0.086

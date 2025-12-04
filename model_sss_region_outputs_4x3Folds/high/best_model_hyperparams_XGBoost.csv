@@ -1,0 +1,9 @@
+Parameter,Value
+model__colsample_bytree,0.6
+model__gamma,1.0
+model__learning_rate,0.01
+model__max_depth,3.0
+model__n_estimators,800.0
+model__reg_alpha,0.01
+model__reg_lambda,1.0
+model__subsample,0.6
